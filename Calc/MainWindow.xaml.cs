@@ -75,29 +75,6 @@ namespace Calc
             
         }
 
-        private void Btn_Click_Ten(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn_Click_Sixteen(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-        }
-
-        private void RadioButtonClickedBefore(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void RadioButtonClickedAfter(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }
