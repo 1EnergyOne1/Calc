@@ -59,7 +59,7 @@ namespace Calc
             int t1 = Convert.ToInt32(text1.Text);
             int t2 = Convert.ToInt32(text2.Text);
 
-            Result.Content = t1 - t2;
+           // Result.Content = t1 - t2;
         }
 
         private void Btn_Click_Two(object sender, RoutedEventArgs e)
