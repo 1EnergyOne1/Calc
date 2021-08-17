@@ -61,5 +61,10 @@ namespace Calc
 
             Result.Content = t1 - t2;
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
     }
 }
