@@ -62,9 +62,42 @@ namespace Calc
             Result.Content = t1 - t2;
         }
 
+        private void Btn_Click_Two(object sender, RoutedEventArgs e)
+        {
+            int c1 = Convert.ToInt32(text1Conv.Text);
+            var c2 = Convert.ToString(c1, 2).PadLeft(8, '0');
+
+
+
+            ResultConv.Content = c2;
+            
+
+            
+        }
+
+        private void Btn_Click_Ten(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Click_Sixteen(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             
+        }
+
+        private void RadioButtonClickedBefore(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void RadioButtonClickedAfter(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

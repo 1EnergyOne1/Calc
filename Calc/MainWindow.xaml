@@ -24,12 +24,22 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Conv">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Height="324">
+                    <Label Content="Введите число" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top"/>
+                    <Label Content="В какую систему" HorizontalAlignment="Left" Margin="24,115,0,0" VerticalAlignment="Top"/>                    
+                    <Label Content="Результат" HorizontalAlignment="Left" Margin="28,244,0,0" VerticalAlignment="Top"/>
+                    <Label Name="ResultConv" Content="Label" HorizontalAlignment="Left" Margin="189,244,0,0" VerticalAlignment="Top"/>
+                    <WrapPanel>
+                        <RadioButton Margin="170,125,0,0" Content="2" Click="RadioButtonClickedBefore"></RadioButton>
+                        <RadioButton Margin="50,125,0,0" Content="10" Click="RadioButtonClickedBefore"></RadioButton>
+                        <RadioButton Margin="50,125,0,0" Content="16" Click="RadioButtonClickedBefore"></RadioButton>                        
+                    </WrapPanel>
+                    <Button Content="2" Margin="-100,0,0,0" Width="24" Height="24" Click="Btn_Click_Two"/>
+                    <Button Content="10" Margin="70,0,0,0" Width="24" Height="24" Click="Btn_Click_Ten"/>
+                    <Button Content="16" Margin="240,0,0,0" Width="24" Height="24" Click="Btn_Click_Sixteen"/>
+                    <TextBox Text="" Name="text1Conv" Margin="-10,-230,0,0" TextWrapping="Wrap" Width="120" Height="20"/>                    
+                </Grid>
             </TabItem>
         </TabControl>
-
-
-
-
     </StackPanel>
 </Window>
