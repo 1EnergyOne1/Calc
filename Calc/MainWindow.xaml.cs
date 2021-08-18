@@ -67,8 +67,6 @@ namespace Calc
             int c1 = Convert.ToInt32(text1Conv.Text);
             var c2 = Convert.ToString(c1, 2).PadLeft(8, '0');
 
-
-
             ResultConv.Content = c2;
             
 
@@ -77,12 +75,18 @@ namespace Calc
 
         private void Btn_Click_Ten(object sender, RoutedEventArgs e)
         {
+            string c1 = text1Conv.Text;
+            var c2 = Convert.ToInt32(c1, 2);
 
+            ResultConv.Content = c2;
         }
 
         private void Btn_Click_Sixteen(object sender, RoutedEventArgs e)
         {
+            string c1 = text1Conv.Text;
+            var c2 = Convert.ToString((Convert.ToInt32(c1,2),8));
 
+            ResultConv.Content = c2;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
